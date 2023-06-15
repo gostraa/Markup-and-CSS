@@ -82,13 +82,13 @@ overflow: hidden;
     padding-bottom: 120px;
 }
 
-.container{
+/* .container{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 
 
@@ -103,11 +103,6 @@ header{
 }
 
 
-.head-container{
-    display: flex;
-
-    align-items: center;
-}
 
 
 /* LOGO */
@@ -257,6 +252,8 @@ header{
 .burger-menu-btn{
     display: none;
 }
+
+
 }
 
 
@@ -984,7 +981,7 @@ border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color: rgba(46, 47, 66, 0.4);
 
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal{
@@ -998,7 +995,7 @@ border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     min-width: 408px;
     min-height: 584px;
 
-    padding:72px 24px 24px 24px;
+    padding: 72px 24px 24px 24px;
     
 
     background-color: var(--madal-bg-color);
