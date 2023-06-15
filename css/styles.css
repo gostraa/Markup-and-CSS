@@ -251,8 +251,17 @@ header{
 }
 
 
+/* --------burger-btn------- */
 
-/* MAIN CONTENT */
+@media (min-width: 428.9px){
+.burger-menu-btn{
+    display: none;
+}
+}
+
+
+
+/* --------------MAIN CONTENT-------------- */
 
 /* SECTION 1 */
 

@@ -1,0 +1,29 @@
+/* .container{
+    width: 428px;
+} */
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 428px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-nav.list, .cont-info{
+    display: none;
+}
+
+
+
+
+
+.burger-menu-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
