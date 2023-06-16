@@ -44,10 +44,11 @@
 
 .feauters-card-tittle{
 
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
 
 }
 
@@ -59,12 +60,14 @@ line-height: 1.11;
  }
 
  .feauters-list .item {
+     max-width: 396px;
     margin: 0;
     width: calc((100% - 24px) / 2);
  }
 
 
 .feauters-card-text{
+   
   font-weight: 500;
 }
 
@@ -81,7 +84,7 @@ line-height: 1.11;
 }
 
 .team-card-content{
-    width: calc((100% - 200px) / 2);
+    width: calc((100% - 24px) / 2);
 }
 
 .team-photo{
@@ -89,8 +92,15 @@ line-height: 1.11;
 }
 
 .person-media-list{
+    width: 100%;
     gap: 24px;
 }
+
+
+
+
+
+
 
 .customers-list{
     flex-wrap: wrap;
@@ -101,18 +111,34 @@ line-height: 1.11;
 
 .custom-card{
     height: 88px;
-    width: calc((100% - 120px) / 3);
+    width: calc((100% - 48px) / 3);
 }
+
+
+
+
 
 
 .footer-container{
     flex-wrap: wrap;
-    row-gap: 72px;
-    justify-content: center;
-    align-items: center;
+    gap: 24px;
+  
+    
 }
 
+.container-fix{
+width: 552px;
+}
 
+.footer-social, .footer-logo-text{
+    margin: 0;
+}
+
+.footer-input{
+
+    max-width: 264px ;
+    opacity: 0.3;
+}
 
 
 /* ---------PORTFOLIO---------- */
