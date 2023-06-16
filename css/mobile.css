@@ -370,10 +370,12 @@
 
 
 .footer-container{
-   
+    justify-content: center;
     flex-wrap: wrap;
     gap: 72px;
 }
+
+
 
 .footer-logo-text{
     text-align: center;
@@ -385,9 +387,13 @@
     margin: 0;
 }
 
+
+@media (min-width: 320px) and (max-width: 620px){
 .footer-form-tittle{
     text-align: center;
 }
+}
+
 
 .input-btn-wrapper{
     flex-wrap: wrap;
