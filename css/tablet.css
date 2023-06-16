@@ -1,0 +1,129 @@
+   .container {
+    max-width: 1157.9px;
+    padding: 0 16px;
+    margin: 0 auto;
+} 
+
+.mobile-menu{
+    display: none;
+}
+
+
+.cont-info> .list{
+ flex-direction: column;
+ row-gap: 12px;
+    
+}
+
+.cont-info-text{
+
+    padding: 0;
+
+    
+   font-size: 12px;
+   line-height: 1.17;
+
+
+    letter-spacing: 0.04em;
+}
+
+.head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-tittle-mobile{
+    display: none;
+}
+
+
+.feauters-icon{
+    display: none;
+}
+
+.feauters-card-tittle{
+
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+
+}
+
+
+ .feauters-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+ }
+
+ .feauters-list .item {
+    margin: 0;
+    width: calc((100% - 24px) / 2);
+ }
+
+
+.feauters-card-text{
+  font-weight: 500;
+}
+
+ 
+.projects{
+    display: none;
+}
+
+
+.team-list{
+    flex-wrap: wrap;
+    row-gap: 64px;
+    justify-content: center;
+}
+
+.team-card-content{
+    width: calc((100% - 200px) / 2);
+}
+
+.team-photo{
+    width: 100%;
+}
+
+.person-media-list{
+    gap: 24px;
+}
+
+.customers-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.custom-card{
+    height: 88px;
+    width: calc((100% - 120px) / 3);
+}
+
+
+.footer-container{
+    flex-wrap: wrap;
+    row-gap: 72px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ---------PORTFOLIO---------- */
+
+
+
+.projects-card{
+    flex-wrap: wrap;
+    row-gap: 72px;
+}
+
+.project-card-content{
+    width: calc((100% - 24px) / 2); ;
+}

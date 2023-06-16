@@ -19,6 +19,22 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767.9px)"
+      href="./css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (min-width:768px) and (max-width:1157.9px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="screen and (min-width:1158px)"
+    />
   </head>
   <body>
     <!-- header -->
@@ -57,11 +73,96 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="burger-menu-btn js-open-menu">
+          <svg class="burger-menu-svg" width="32" height="22">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
+      <!--------------- MOBILE MENU ------------------->
+      <div class="mobile-menu js-menu-container is-hidden">
+        <div class="container mobile-menu-wrapper">
+          <button type="button" class="back-menu-btn js-close-menu">
+            <svg class="modal-back-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+
+          <nav class="menu-navigation-wrapper">
+            <ul class="menu-navigation-list list">
+              <li class="item">
+                <a href="./index.html" class="site-nav-text menu link"
+                  >Studio</a
+                >
+              </li>
+              <li class="item">
+                <a
+                  href="./portfolio.html"
+                  class="site-nav-text menu active link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="item">
+                <a href="" class="site-nav-text menu link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="menu-cont-info">
+            <ul class="menu-cont-list list">
+              <li class="item">
+                <a href="tel:+110001111111" class="cont-info-tel link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="cont-info-mail link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="menu-media-list-wrapper">
+            <ul class="menu-media-list list">
+              <li class="menu-media-item">
+                <a href="" class="menu-media-link link">
+                  <svg class="menu-media-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-media-item">
+                <a href="" class="menu-media-link link">
+                  <svg class="menu-media-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-media-item">
+                <a href="" class="menu-media-link link">
+                  <svg class="menu-media-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-media-item">
+                <a href="" class="menu-media-link link">
+                  <svg class="menu-media-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <script src="./js/mobile-menu.js"></script>
     </header>
     <!-- main content -->
     <main>
-      <section class="projects-filtre section">
+      <section class="projects-filtre section for-portfolio-main">
         <div class="container">
           <h1 class="visually-hidden">
             Lorem ipsum dolor sit amet consectetur.
@@ -92,7 +193,7 @@
                   <img
                     src="./images/portf9.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -115,7 +216,7 @@
                   <img
                     src="./images/portf1.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -137,7 +238,7 @@
                   <img
                     src="./images/portf2.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -159,7 +260,7 @@
                   <img
                     src="./images/portf3.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -181,7 +282,7 @@
                   <img
                     src="./images/portf4.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -203,7 +304,7 @@
                   <img
                     src="./images/portf5.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -225,7 +326,7 @@
                   <img
                     src="./images/portf6.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -247,7 +348,7 @@
                   <img
                     src="./images/portf7.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
@@ -269,7 +370,7 @@
                   <img
                     src="./images/portf8.jpg"
                     alt="Banking App"
-                    width="360"
+                    width="396"
                     class="project-card-photo"
                   />
                   <p class="overlay">
