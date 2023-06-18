@@ -140,7 +140,8 @@
 
 .footer-container{
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   
     
 }
