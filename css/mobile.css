@@ -414,6 +414,8 @@
     margin-bottom: 48px;
 }
 
+
+
 .for-portfolio-main{
     padding: 48px 0;
 }
@@ -421,6 +423,10 @@
 .projects-card{
   
     justify-content: center;
+}
+
+.no-padding{
+    padding: 0;
 }
 
 
