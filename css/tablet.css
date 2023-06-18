@@ -17,12 +17,15 @@
     --madal-bg-color :  #FCFCFC;
 }
 
+
 .container {
-    
+    min-width:768px;
     max-width: 1157.9px;
     padding: 0 16px;
     margin: 0 auto;
 } 
+
+
 
 .mobile-menu{
     display: none;
@@ -115,12 +118,15 @@
 
 .person-media-list{
     width: 100%;
-    gap: 24px;
+    justify-content: space-between;
 }
 
 
 .customers-list{
     flex-wrap: wrap;
+    
+    row-gap: 72px;
+    
     justify-content: center;
     align-items: center;
 }
@@ -132,7 +138,6 @@
 }
 
 
-
 .footer-container{
     flex-wrap: wrap;
     gap: 24px;
@@ -141,8 +146,12 @@
 }
 
 .container-fix{
-    width: 552px;
+    padding: 0 108px;
+    max-width: 552px;
+    
 }
+
+
 
 .footer-social, .footer-logo-text{
     margin: 0;
@@ -156,6 +165,7 @@
 
 
 /* ---------PORTFOLIO---------- */
+
 
 
 .projects-card{
