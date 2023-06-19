@@ -47,10 +47,7 @@
     justify-content: space-between;
 }
 
-.site-nav{
-    display: inline-block;
-    
-}
+
 
 .logo-header{
      margin: 0;
@@ -60,6 +57,11 @@
     display: none;
 }
 
+
+.site-nav-text.menu{
+
+    display: inline;
+}
 
 .burger-menu-btn{
     display: flex;
@@ -106,7 +108,7 @@
 
 
 .cont-info-mail{
-    display: block;
+    display: inline-block;
     margin-bottom: 48px;
 }
 
@@ -160,7 +162,7 @@
 }
 
 
-.site-nav-text.menu, .cont-info-tel{
+.menu, .cont-info-tel{
    font-family: 'Roboto', sans-serif;
     
     font-weight: 700;
@@ -169,6 +171,7 @@
     letter-spacing: 0.02em;
     
 }
+
 
 
 .menu-cont-info{
@@ -416,11 +419,13 @@
 /* --------PORTFOLIO------ */
 
 .filtre-buttons.list {
+    
     row-gap: 16px;
-    FLEX-WRAP: wrap;
+    flex-wrap: wrap;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 48px;
+    padding-left: 16px;
 }
 
 
