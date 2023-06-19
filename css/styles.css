@@ -254,9 +254,6 @@ header{
 
 .hero {
 
-
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), 
-    url("../images/people-office.jpg");
     background-color: var(--secondary-bg-color);
     background-repeat: no-repeat;
     background-position: center;
@@ -266,26 +263,6 @@ header{
     text-align: center;
     padding: 188px 0;
 }
-
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
-     url('../adaptive-img/hero/people@2x.jpg');
-  }
-}
-
-
-/* @media (min-device-pixel-ratio: 3),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
-     url('../adaptive-img/hero/people@2x.jpg');
-  }
-} */
 
 
 
