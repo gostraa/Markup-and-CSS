@@ -110,6 +110,15 @@
     margin-bottom: 48px;
 }
 
+.cont-info-tel:hover,.cont-info-mail:hover{
+    color: var(--accent-two);
+}
+
+.cont-info-tel:focus,.cont-info-mail:focus{
+    color: var(--accent-two);
+   
+}
+
 
 .back-menu-btn{
     display: flex;
@@ -172,7 +181,7 @@
 
 .cont-info-tel{
     display: inline-block;
-    color: var(--accent);
+    color: var(--secondary-text-color);
     margin-bottom: 40px;
    
 }
